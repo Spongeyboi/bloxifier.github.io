@@ -3,7 +3,7 @@ body{
 }
 div{
   display: block;
-  color: grey;
+  background-color: grey;
 }
 #undraggable{
 user-drag: none; 
