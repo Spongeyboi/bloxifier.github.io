@@ -1,3 +1,7 @@
 body{
   font-family: Arial;
 }
+div{
+  display: block;
+  color: grey;
+}
