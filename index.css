@@ -1,10 +1,32 @@
 body{
   font-family: Arial;
 }
-div{
+div.menu{
   display: block;
   background-color: grey;
+  margin-top: -0.6%;
+  margin-left: -0.6%;
+    margin-right: -0.6%;
 }
+a.menubutton{
+  padding: 10px 10px 10px 10px;
+  background-color: #5DADE2;
+  text-decoration: none;
+  font-family: cursive;
+  font-size: 30px;
+  color: White;
+  border-radius: 5px;
+  transition: background-color 0.5s, font-size 0.5s;
+}
+a.menubutton:hover{
+  background-color: LightBlue;
+  font-size: 32px;
+}
+a.menubutton:active{
+  background-color: #2E86C1;
+  font-size: 28px;
+}
+
 #undraggable{
 user-drag: none; 
 user-select: none;
